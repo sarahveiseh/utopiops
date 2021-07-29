@@ -1,0 +1,17 @@
+.basic {
+  padding: 0.5rem;
+  border: 1px solid rgb(172, 168, 168);
+  box-shadow: 0 0 3px #666;
+
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.card {
+  background-color: white;
+}
+
+.selectedCard {
+  background-color: rgb(134, 134, 134);
+}

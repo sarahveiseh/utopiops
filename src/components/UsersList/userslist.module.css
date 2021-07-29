@@ -1,0 +1,8 @@
+.userlist {
+  display: flex;
+  flex-direction: column;
+}
+
+.userlist > div {
+  margin: 1rem;
+}

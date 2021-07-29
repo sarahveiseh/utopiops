@@ -1,0 +1,46 @@
+fieldset {
+  border: rgb(151, 40, 151) 2px solid;
+  padding: 3rem;
+
+  width: 65vw;
+  border-radius: 25px;
+}
+legend {
+  color: rgb(151, 40, 151);
+  font-size: 1rem;
+}
+
+.bodyFieldset {
+  margin-top: 4rem;
+}
+
+textarea {
+  border: none;
+  resize: none;
+  width: 100%;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  border: 0px;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 0 0 5px rgb(97, 96, 96);
+  cursor: pointer;
+  padding: 1.5rem;
+  margin-top: 3rem;
+  font-weight: bold;
+}
+
+.required {
+  color: red;
+  margin-left: 2.5rem;
+}

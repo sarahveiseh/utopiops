@@ -1,0 +1,31 @@
+.main-page {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.main-page > * {
+  margin: 1.5rem;
+  background-color: rgb(202, 202, 202);
+  height: 90vh;
+  overflow: scroll;
+}
+
+.users {
+  grid-column: 1 / 2;
+  margin-right: 0;
+}
+
+.posts {
+  grid-column: 2 / 5;
+  margin-left: 0;
+}
+
+.main-page > *::-webkit-scrollbar {
+  display: none;
+}
+
+.post-form {
+  display: flex;
+  justify-content: center;
+}
